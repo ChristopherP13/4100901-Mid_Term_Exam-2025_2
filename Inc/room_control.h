@@ -4,8 +4,8 @@
 #include <stdint.h>
 
 // Constantes
-#define LED_TIMEOUT_MS 3000  // Tiempo para apagar LED después de presionar botón
-#define PWM_INITIAL_DUTY 0   // Duty cycle inicial para PWM LED (IDLE = apagado)
+#define LED_TIMEOUT_MS 10000  // Tiempo para apagar LED después de presionar botón
+#define PWM_INITIAL_DUTY 20   // Duty cycle inicial para PWM LED (IDLE = apagado)
 
 /**
  * @brief Función a ser llamada por EXTI15_10_IRQHandler cuando se detecta
